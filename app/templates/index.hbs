@@ -1,0 +1,10 @@
+<div>
+  <<h1>Ember Summernote Task</h1>
+</div>
+
+{{#each numberOfBoxes as |n|}}
+  <hr>
+  <div>
+    {{editor-box boxNumber=n}}
+  </div>
+{{/each}}
