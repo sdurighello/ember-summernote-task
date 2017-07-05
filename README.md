@@ -1,24 +1,22 @@
-# Ember Summernote Task
+![screenshot](./public/assets/images/summernote-screenshot.png)
 
 #### Task description
 1.	Create a new ember project
 2.	Download and install a wysiwyg editor
   -	You can use the ember plugin summernote
-        *	https://www.npmjs.com/package/ember-cli-summernote
-        * https://github.com/summernote/summernote
-        * http://summernote.org/
-3.	Show the wysiwyg editor and make sure that - each time the page reloads - it displays a random text of at least 50 words and maximum 300 words.
+  -	https://www.npmjs.com/package/ember-cli-summernote
+  - https://github.com/summernote/summernote
+  - http://summernote.org/
+3.	Show the wysiwyg editor and make sure that - each time the page reloads - it displays a random text of 
+at least 50 words and maximum 300 words.
 4.	Measure each time the page is loaded the size of the text in the text area and adjust the size of the wysiwyg editor.
 5.	Duplicate the editor 5 times and make sure that each editor has its own random text / size, etc.
 
 #### Implementation notes
 Probably due to outdated dependencies in the plugins, I had to manually add the _font_ folder 
-in .bower-components/summernote/dist
-
+in `.bower-components/summernote/dist`
 
 ----
-
-# ember-summernote-task
 
 This README outlines the details of collaborating on this Ember application.
 A short introduction of this app could easily go here.
