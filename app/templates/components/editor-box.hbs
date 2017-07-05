@@ -1,0 +1,11 @@
+<p>Example text height: {{contentHeight}}</p>
+{{summer-note height=(readonly contentHeight)
+              btnSize=bs-sm
+              airMode=false
+              focus=false
+              header="Example"
+              content=(readonly postContent)
+              onContentChange=(action 'onContentChange')
+              disabled=editingDisabled
+              callbacks=callbackOptions
+              toolbarOptions=toolbarOptions}}
