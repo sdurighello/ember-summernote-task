@@ -1,0 +1,6 @@
+{
+  "name": "ember-summernote-task",
+  "dependencies": {
+    "summernote": "~0.7.0"
+  }
+}
